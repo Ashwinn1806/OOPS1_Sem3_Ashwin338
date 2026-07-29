@@ -59,12 +59,12 @@ public:
     }
 
     // Function Overloading
-    int add(int a, int b)
+    int add(int a, int b)//here int a, int b, are the parameters
     {
         return a + b;
     }
 
-    int add(int a, int b, int c)
+    int add(int a, int b, int c)//here int a, int b, int c are the parameters
     {
         return a + b + c;
     }
@@ -85,8 +85,8 @@ int main()
     */
 
     // Calling Overloaded Functions
-    cout << "Sum of 2 Numbers = " << c.add(10, 20) << endl;
-    cout << "Sum of 3 Numbers = " << c.add(10, 20, 30) << endl;
+    cout << "Sum of 2 Numbers = " << c.add(10, 20) << endl; //here 10, 20 are the arguements
+    cout << "Sum of 3 Numbers = " << c.add(10, 20, 30) << endl; //here 10, 20, 30 are the arguements
 
     return 0;
 }
